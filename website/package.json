@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
+  "scripts": {    
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
