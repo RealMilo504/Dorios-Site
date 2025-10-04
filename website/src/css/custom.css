@@ -71,6 +71,20 @@ html[data-theme='dark'] {
 .footer {
   background-color: #0e0d0d !important;
   color: #e0e0e0 !important;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 4rem;
+}
+
+.footer__col {
+  min-width: 150px;
+  padding: 0.5rem 0;
 }
 
 .footer a {
@@ -84,10 +98,11 @@ html[data-theme='dark'] {
 }
 
 .footer__bottom {
+  text-align: center;
   border-top: 1px solid #2a2a2a !important;
+  margin-top: 2rem;
+  padding-top: 1rem;
 }
 
-.footer__col {
-  padding: 0.5rem 0;
-}
+
 

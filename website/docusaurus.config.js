@@ -103,6 +103,8 @@ const config = {
             title: 'About',
             items: [
               { label: 'About Us', to: '/about' },
+              { label: 'GitHub', href: 'https://github.com/RealMilo504' },
+              { label: 'Patreon', href: 'https://patreon.com/DoriosStudios?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink' },
               // { label: 'Projects', to: '/projects' },
               // { label: 'Team', to: '/team' },
               // { label: 'Contact', to: '/contact' },
@@ -112,7 +114,7 @@ const config = {
             title: 'Docs',
             items: [
               { label: 'UtilityCraft', to: '/docs/addons/utilitycraft/' },
-              { label: 'Bountiful Bonsais', to: '/docs/addons/bountiful-bonsais/' },
+              { label: 'Bountiful Bonsais', to: '/docs/addons/bountiful_bonsais/' },
               { label: `Dorios' Trinkets`, to: '/docs/addons/dorios_trinkets/' },
               { label: 'Our Add-Ons', to: '/docs/addons' },
             ],
@@ -122,20 +124,18 @@ const config = {
             items: [
               { label: 'Discord', href: 'https://discord.gg/x36H3ZtmK5' },
               { label: 'YouTube', href: 'https://www.youtube.com/@doriosstudios' },
-              { label: 'GitHub', href: 'https://github.com/RealMilo504' },
               { label: 'CurseForge', href: 'https://www.curseforge.com/minecraft-bedrock/addons' },
               { label: 'MCPEDL', href: 'https://mcpedl.com/user/doriosstudios/' },
-              { label: 'Patreon', href: 'https://patreon.com/DoriosStudios?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink' },
             ],
           },
-          {
-            title: 'Legal',
-            items: [
-              // { label: 'Privacy Policy', to: '/privacy' },
-              // { label: 'Terms of Use', to: '/terms' },
-              // { label: 'Credits', to: '/credits' },
-            ],
-          },
+          // {
+          //   title: 'Legal',
+          //   items: [
+          //     // { label: 'Privacy Policy', to: '/privacy' },
+          //     // { label: 'Terms of Use', to: '/terms' },
+          //     // { label: 'Credits', to: '/credits' },
+          //   ],
+          // },
         ],
         logo: {
           alt: 'Dorios Studios Logo',
