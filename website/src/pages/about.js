@@ -61,7 +61,7 @@ export default function About() {
             { id: 'milo504', name: 'Milo504 (Drag504)', role: 'Owner & Lead Developer', quote: 'Founder of Dorios Studios. Main developer of UtilityCraft and leader of the studio.' },
             { id: 'weathervictor', name: 'WeatherVictor', role: 'Developer & UI Designer', quote: 'Specializes in UI creation and general coding, bringing structure and usability to our projects.' },
             { id: 'jrice', name: 'JRice', role: 'Designer', quote: 'Lead designer behind UtilityCraft 3.0 and the studio’s visual style.' },
-            { id: 'kauzin', name: 'Kauzin', role: 'Junior Developer', quote: 'A new coder starting to learn and grow with Dorios Studios, contributing with fresh ideas.' },
+            { id: 'kauzin', name: 'Kauziin', role: 'Junior Developer', quote: 'A new coder starting to learn and grow with Dorios Studios, contributing with fresh ideas.' },
             { id: 'cloud', name: 'Cloud', role: 'Independent Creator', quote: 'Creator of Better Smelters and contributor to independent Minecraft projects.' },
             { id: 'sam', name: 'Sam', role: 'Animator', quote: 'Animator and creative mind working on Endless Agony and adding life to our projects.' },
             { id: 'mainmas', name: 'Mainmas', role: 'Independent Worker', quote: 'Independent contributor supporting Dorios Studios with community and project assistance.' },
