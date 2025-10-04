@@ -26,6 +26,20 @@ This section covers the early survival loop and how to unlock your first automat
 
 ---
 
+## Expanding Your Resources
+
+After learning the basics, it’s time to grow your production and gather materials faster.  
+This chapter focuses on scaling up sieving, upgrading meshes, and improving your resource flow:
+
+- Place multiple **Sieves** together for mass processing  
+- Unlock higher-tier **Meshes** to access new drops  
+- Learn about **Compressed Blocks** for bulk crafting  
+- Discover how **Bonsais** can automate early resource farming  
+
+[Read Expanding Your Resources →](./expanding-resources)
+
+---
+
 ## Upcoming Chapters
 
 More sections will be added soon, including:

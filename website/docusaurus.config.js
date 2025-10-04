@@ -1,12 +1,5 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
-import {themes as prismThemes} from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,16 +7,13 @@ const config = {
   tagline: 'Free Addons for the Minecraft Community',
   favicon: 'img/dorios_logo.png',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true,
   },
 
-  // Site URL
   url: 'https://doriosstudios.com',
   baseUrl: '/',
 
-  // GitHub pages deployment config.
   organizationName: 'RealMilo504',
   projectName: 'Dorios-Site',
 
@@ -37,12 +27,10 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl:
-            'https://github.com/RealMilo504/Dorios-Site/tree/main/',
+          editUrl: 'https://github.com/RealMilo504/Dorios-Site/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -50,8 +38,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl:
-            'https://github.com/RealMilo504/Dorios-Site/tree/main/',
+          editUrl: 'https://github.com/RealMilo504/Dorios-Site/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -60,6 +47,20 @@ const config = {
           customCss: './src/css/custom.css',
         },
       }),
+    ],
+  ],
+
+  // 🔍 Add local search plugin here
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        searchBarShortcutHint: false,
+      },
     ],
   ],
 
@@ -77,9 +78,10 @@ const config = {
         title: 'Dorios Studios',
         logo: {
           alt: 'Dorios Studios Logo',
-          src: 'img/dorios_logo.png', // put your logo in static/img/logo.png
+          src: 'img/dorios_logo.png',
         },
         items: [
+          { type: 'search', position: 'right' }, // ✅ Search bar added here
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -104,10 +106,10 @@ const config = {
             items: [
               { label: 'About Us', to: '/about' },
               { label: 'GitHub', href: 'https://github.com/RealMilo504' },
-              { label: 'Patreon', href: 'https://patreon.com/DoriosStudios?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink' },
-              // { label: 'Projects', to: '/projects' },
-              // { label: 'Team', to: '/team' },
-              // { label: 'Contact', to: '/contact' },
+              {
+                label: 'Patreon',
+                href: 'https://patreon.com/DoriosStudios?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink',
+              },
             ],
           },
           {
@@ -128,14 +130,6 @@ const config = {
               { label: 'MCPEDL', href: 'https://mcpedl.com/user/doriosstudios/' },
             ],
           },
-          // {
-          //   title: 'Legal',
-          //   items: [
-          //     // { label: 'Privacy Policy', to: '/privacy' },
-          //     // { label: 'Terms of Use', to: '/terms' },
-          //     // { label: 'Credits', to: '/credits' },
-          //   ],
-          // },
         ],
         logo: {
           alt: 'Dorios Studios Logo',
@@ -148,8 +142,7 @@ const config = {
           © ${new Date().getFullYear()} Dorios Studios — Creating worlds, one addon at a time.<br/>
           Built with ❤️ using Docusaurus.
         `,
-      },  
-
+      },
 
       prism: {
         theme: prismThemes.github,
