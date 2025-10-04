@@ -59,21 +59,23 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Better Smelters */}
-          <div className="card addon-card">
-            <div className="addon-logo">
-              <img src="/img/addons/bonsais/pack_icon.png" alt="Better Smelters icon" />
-            </div>
-            <div className="addon-content">
-              <h3>Better Smelters</h3>
-              <p>
-                Upgrade your furnaces with tiered smelters that process items faster and more efficiently than vanilla.
-              </p>
-              {/* <Link className="button button--primary" to="/docs/better-smelters/intro">
-                Check Better Smelters
-              </Link> */}
-            </div>
-          </div>
+ {/* Bountiful Bonsais */}
+<div className="card addon-card">
+  <div className="addon-logo">
+    <img src="/img/addons/bonsais/pack_icon.png" alt="Bountiful Bonsais icon" />
+  </div>
+  <div className="addon-content">
+    <h3>Bountiful Bonsais</h3>
+    <p>
+      Automate tree farming with miniature bonsais. Different soils and upgrades
+      affect growth speed, output, and efficiency.
+    </p>
+    {/* <Link className="button button--primary" to="/docs/bonsais/intro">
+      Explore Bountiful Bonsais
+    </Link> */}
+  </div>
+</div>
+
 
           {/* More Addons */}
           <div className="card addon-card">
