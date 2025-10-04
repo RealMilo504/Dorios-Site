@@ -2,6 +2,7 @@
 id: addons-intro
 title: Our Add-Ons
 sidebar_label: Our Add-Ons
+sidebar_position: 0
 ---
 
 # Our Add-Ons

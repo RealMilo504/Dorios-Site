@@ -36,7 +36,7 @@ export default function Home() {
                 Advanced automation with machines, custom energy, ore crops, and everything you need to make
                 Minecraft easier and more fun.
               </p>
-              <Link className="button button--primary" to="/docs/Add-Ons/UtilityCraft/intro">
+              <Link className="button button--primary" to="/docs/addons/utilitycraft/">
                 Explore UtilityCraft
               </Link>
             </div>
@@ -53,7 +53,7 @@ export default function Home() {
                 Over 50 unique trinkets that grant powerful passive abilities, designed to enhance combat,
                 exploration, and survival.
               </p>
-              <Link className="button button--primary" to="/docs/Add-Ons/Dorios' Trinkets/intro">
+              <Link className="button button--primary" to="/docs/addons/dorios_trinkets/">
                 Discover Trinkets
               </Link>
             </div>
@@ -70,7 +70,7 @@ export default function Home() {
                 Automate tree farming with miniature bonsais. Different soils and upgrades
                 affect growth speed, output, and efficiency.
               </p>
-              <Link className="button button--primary" to="/docs/Add-Ons/Bountiful Bonsais/intro">
+              <Link className="button button--primary" to="/docs/addons/bountiful_bonsais/">
                 Explore Bountiful Bonsais
               </Link>
             </div>
@@ -87,7 +87,7 @@ export default function Home() {
               <p>
                 Explore the rest of our creations and projects in development. Stay tuned for upcoming releases!
               </p>
-              <Link className="button button--secondary" to="/docs/Add-Ons/addons-intro">
+              <Link className="button button--secondary" to="/docs/addons/">
                 View All Addons
               </Link>
             </div>

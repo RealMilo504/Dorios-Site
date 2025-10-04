@@ -1,7 +1,7 @@
 ---
 id: intro
 title: UtilityCraft – Introduction
-sidebar_label: Introduction
+sidebar_label: Bountiful Bonsais
 ---
 
 # UtilityCraft
