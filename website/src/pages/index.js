@@ -87,7 +87,7 @@ export default function Home() {
               <p>
                 Explore the rest of our creations and projects in development. Stay tuned for upcoming releases!
               </p>
-              <Link className="button button--secondary" to="/docs/general">
+              <Link className="button button--secondary" to="/docs/Add-Ons/addons-intro">
                 View All Addons
               </Link>
             </div>
