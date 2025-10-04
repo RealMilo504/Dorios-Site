@@ -36,9 +36,9 @@ export default function Home() {
                 Advanced automation with machines, custom energy, ore crops, and everything you need to make
                 Minecraft easier and more fun.
               </p>
-              {/* <Link className="button button--primary" to="/docs/utilitycraft/intro">
+              <Link className="button button--primary" to="/docs/Add-Ons/UtilityCraft/intro">
                 Explore UtilityCraft
-              </Link> */}
+              </Link>
             </div>
           </div>
 
@@ -53,28 +53,28 @@ export default function Home() {
                 Over 50 unique trinkets that grant powerful passive abilities, designed to enhance combat,
                 exploration, and survival.
               </p>
-              {/* <Link className="button button--primary" to="/docs/trinkets/intro">
+              <Link className="button button--primary" to="/docs/Add-Ons/Dorios' Trinkets/intro">
                 Discover Trinkets
-              </Link> */}
+              </Link>
             </div>
           </div>
 
- {/* Bountiful Bonsais */}
-<div className="card addon-card">
-  <div className="addon-logo">
-    <img src="/img/addons/bonsais/pack_icon.png" alt="Bountiful Bonsais icon" />
-  </div>
-  <div className="addon-content">
-    <h3>Bountiful Bonsais</h3>
-    <p>
-      Automate tree farming with miniature bonsais. Different soils and upgrades
-      affect growth speed, output, and efficiency.
-    </p>
-    {/* <Link className="button button--primary" to="/docs/bonsais/intro">
-      Explore Bountiful Bonsais
-    </Link> */}
-  </div>
-</div>
+          {/* Bountiful Bonsais */}
+          <div className="card addon-card">
+            <div className="addon-logo">
+              <img src="/img/addons/bonsais/pack_icon.png" alt="Bountiful Bonsais icon" />
+            </div>
+            <div className="addon-content">
+              <h3>Bountiful Bonsais</h3>
+              <p>
+                Automate tree farming with miniature bonsais. Different soils and upgrades
+                affect growth speed, output, and efficiency.
+              </p>
+              <Link className="button button--primary" to="/docs/Add-Ons/Bountiful Bonsais/intro">
+                Explore Bountiful Bonsais
+              </Link>
+            </div>
+          </div>
 
 
           {/* More Addons */}
@@ -87,9 +87,9 @@ export default function Home() {
               <p>
                 Explore the rest of our creations and projects in development. Stay tuned for upcoming releases!
               </p>
-              {/* <Link className="button button--secondary" to="/docs/addons">
+              <Link className="button button--secondary" to="/docs/general">
                 View All Addons
-              </Link> */}
+              </Link>
             </div>
           </div>
         </section>
