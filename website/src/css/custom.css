@@ -1,6 +1,6 @@
 :root {
   /* Blaze Orange palette */
-  --ifm-color-primary: #ff6b00;       /* 🔥 naranja blaze */
+  --ifm-color-primary: #ff6b00;
   --ifm-color-primary-dark: #e55f00;
   --ifm-color-primary-darker: #cc5400;
   --ifm-color-primary-light: #ff822b;
@@ -25,11 +25,10 @@ html[data-theme='dark'] {
   --ifm-link-color: #ff822b;
 }
 
-
-/* Addon cards like FTB: logo left, text right */
+/* Add-Ons Cards */
 .addon-card {
   display: flex;
-  flex-direction: row;    /* 🔥 fuerza fila */
+  flex-direction: row; 
   align-items: center;
   gap: 1.5rem;
   margin-bottom: 2rem;
@@ -40,7 +39,7 @@ html[data-theme='dark'] {
 }
 
 .addon-logo {
-  flex: 0 0 200px;        /* espacio fijo a la izquierda */
+  flex: 0 0 200px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +47,7 @@ html[data-theme='dark'] {
 
 .addon-logo img {
   width: 100%;
-  max-width: 160px;       /* 🔥 tamaño del logo */
+  max-width: 160px;
   height: auto;
   border-radius: 8px;
   object-fit: contain;
@@ -59,7 +58,6 @@ html[data-theme='dark'] {
   text-align: left;
 }
 
-/* Responsive: en pantallas chicas apilar */
 @media (max-width: 768px) {
   .addon-card {
     flex-direction: column;
@@ -69,3 +67,27 @@ html[data-theme='dark'] {
     padding-left: 0;
   }
 }
+
+.footer {
+  background-color: #0e0d0d !important;
+  color: #e0e0e0 !important;
+}
+
+.footer a {
+  color: #ff822b !important; 
+  transition: 0.2s ease;
+}
+
+.footer a:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+.footer__bottom {
+  border-top: 1px solid #2a2a2a !important;
+}
+
+.footer__col {
+  padding: 0.5rem 0;
+}
+

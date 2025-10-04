@@ -6,51 +6,30 @@ sidebar_label: Guide
 
 # UtilityCraft Guide
 
-Welcome to the **UtilityCraft Guide**, your step-by-step walkthrough through the world of automation, resource management, and survival efficiency.
+Welcome to the **UtilityCraft Guide**, a step-by-step walkthrough that will take you from your first moments in survival to building your first automated machines.  
+This section focuses on helping you understand the basic mechanics and progression of UtilityCraft.
 
-Whether you’re just starting out or looking to master advanced systems, this guide is designed to take you from the basics to full automation at your own pace.
-
----
-
-## 🧱 Getting Started
-
-Learn how to begin your journey:
-- Collect Pebbles and craft your first **Hammer**
-- Use **Flint Knives** to gather String
-- Build your first **Sieve** and start filtering materials
-
-[Start Here →](./getting-started)
+Each chapter introduces new gameplay systems, explaining how to advance efficiently without breaking the survival balance.
 
 ---
 
-## ⚒️ Crafting & Progression
+## Getting Started
 
-Discover how early tools and machines connect to your progression:
-- Learn crafting basics and renewable resources  
-- Turn fibers into string, and string into steel  
-- Unlock crafting stations and automation paths
+Learn how to begin your journey with UtilityCraft.  
+This section covers the early survival loop and how to unlock your first automated tools:
 
-<!-- [Read More →](./crafting-essentials.md) -->
+- Collect Pebbles and craft your first **Hammer**  
+- Use a **Flint Knife** to gather Plant Fibers and make String  
+- Build your first **Sieve** to start filtering materials  
 
----
-
-## 🌾 Early Resources
-
-Understand how to refine materials and grow your resource network:
-- Use **Hammers** to break blocks into smaller types  
-- **Sieve** materials for ores, dusts, and plants  
-- Build the foundations for your first machines  
-
-<!-- [Continue →](./early-resources.md) -->
+[Read Getting Started →](./getting-started)
 
 ---
 
-## 🚀 What’s Next?
+## Upcoming Chapters
 
-Once you’ve mastered the early systems, continue with:
-- The **Energy System**  
-- **Generators**  
-- **Machines** and upgrades  
-- **Automation Tools** and item transport  
-
-Explore the next chapters of UtilityCraft to build your ultimate survival factory.
+More sections will be added soon, including:
+- Energy Systems and Generators  
+- Machines and Automation  
+- Transport Systems  
+- Crafting Components and Advanced Recipes
