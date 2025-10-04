@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://doriosstudios.com/blog"/>
     <subtitle>Dorios Studios Blog</subtitle>
-    <icon>https://doriosstudios.com/img/favicon.ico</icon>
+    <icon>https://doriosstudios.com/img/dorios_logo.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://doriosstudios.com/blog/welcome</id>
