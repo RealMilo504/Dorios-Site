@@ -104,7 +104,7 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/Add-Ons/addons-intro',
+                to: '/docs/addons/',
               },
             ],
           },
