@@ -104,5 +104,15 @@ html[data-theme='dark'] {
   padding-top: 1rem;
 }
 
+.table-center {
+  display: flex;
+  justify-content: center;
+}
+
+.table-center table {
+  width: auto !important;   
+  margin: 0 auto;          
+  max-width: 100%;          
+}
 
 

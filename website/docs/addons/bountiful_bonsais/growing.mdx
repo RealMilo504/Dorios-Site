@@ -1,0 +1,86 @@
+---
+id: growth
+title: Growth & Drops
+sidebar_label: Growth & Drops
+sidebar_position: 2
+---
+
+# Growth & Drops
+
+Every bonsai follows a simple cycle: **grow → harvest → repeat**.  
+The type of soil, the plant, and certain modifiers directly affect the growth speed and loot outcome.
+
+<p align="center">
+  <img 
+    src="/img/addons/bonsais/cherry_bonsai.jpg" 
+    alt="Bonsai growth animation stages" 
+    width="50%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+---
+
+## Growth Time
+
+By default, each bonsai takes **60 seconds** to complete a full growth cycle.  
+However, this time can be reduced with better soils or certain actions.
+
+| Modifier | Effect on Growth |
+|:------------------------:|:-------------------------------:|
+| **Base (any soil)** | 60 seconds |
+| **Sand / Red Sand** | -10 seconds |
+| **Hoed Soil** | -10 seconds |
+| **Special Soils (UtilityCraft)** | Varies per type |
+| **Fertilizer / Bone Meal** | Instantly resets progress to full |
+
+
+Some soils can **multiply** the output or **cut the growth time in half**, depending on their tier.
+
+---
+
+## Special Soils
+
+When combined with UtilityCraft or Bountiful Crops, you gain access to special soils that greatly boost bonsai performance.  
+These soils **cannot be hoed** and each offers unique benefits.
+
+| Soil | Bonus | Loot Multiplier |
+|:----------------------:|:-----------------------------:|:----------------:|
+| 🟡 **Yellow Soil** | Faster growth | ×1.5 |
+| 🔴 **Red Soil** | Even faster growth | ×2 |
+| 🔵 **Blue Soil** | Double output | ×2 |
+| ⚫ **Black Soil** | Maximum output | ×4 |
+
+> 💡 **Tip:** Higher-tier soils not only shorten growth time,  
+> but also multiply the amount of drops produced by your bonsais.
+
+---
+
+## Drop Mechanics
+
+Each bonsai generates resources once its growth cycle completes.  
+The type and amount of loot depend on the bonsai type, soil, and RNG.
+
+| Bonsai Type | Main Drop | Side Drops | Special Notes |
+|:-------------:|:------------:|:-------------:|:----------------------:|
+| Trees | Logs | Leaves, Sticks, Saplings | Most common bonsai type |
+| Crops | Crops / Seeds | — | Simple and fast-growing |
+| Mushrooms | Mushrooms | — | Grows faster in dark |
+| Bamboo / Cactus | Plant Items | — | Best for bulk farming |
+| Chorus / Nether Plants | Rare materials | — | Longer growth time |
+
+All drops are automatically inserted into the **container below** the bonsai (Barrel, Chest, or compatible block).  
+You can chain multiple containers or connect them with **UtilityCraft hoppers or uppers** for transport.
+
+---
+
+## Multipliers & Efficiency
+
+Every bonsai calculates its total output like this:
+
+Base Drops × Soil Multiplier
+
+For example:
+- A **Dirt Bonsai** might yield 6–10 logs.  
+- The same bonsai on **Blue Soil** could yield up to 20.  
+- On **Black Soil**, it can reach 40 or more per cycle.
