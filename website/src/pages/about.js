@@ -57,7 +57,6 @@ export default function About() {
             gap: '2rem',
           }}
         >
-          {/* Members */}
           {[
             { id: 'milo504', name: 'Milo504 (Drag504)', role: 'Owner & Lead Developer', quote: 'Founder of Dorios Studios. Main developer of UtilityCraft and leader of the studio.' },
             { id: 'weathervictor', name: 'WeatherVictor', role: 'Developer & UI Designer', quote: 'Specializes in UI creation and general coding, bringing structure and usability to our projects.' },
@@ -87,6 +86,44 @@ export default function About() {
               <h3>{member.name}</h3>
               <p><b>{member.role}</b></p>
               <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>{member.quote}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* Acknowledgements Section */}
+        <h2 style={{ textAlign: 'center', margin: '4rem 0 2rem' }}>Acknowledgements</h2>
+        <p style={{ textAlign: 'center', marginBottom: '2rem' }}>
+          We want to thank our amazing community and especially the dedicated testers who helped us refine our projects.  
+          Their support and feedback have been essential in bringing Dorios Studios addons to life.
+        </p>
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
+            gap: '2rem',
+          }}
+        >
+          {[
+            { id: 'tester1', name: 'Tester One' },
+            { id: 'tester2', name: 'Tester Two' },
+            { id: 'tester3', name: 'Tester Three' },
+          ].map((tester, i) => (
+            <div
+              key={i}
+              style={{
+                background: 'var(--ifm-card-background-color)',
+                borderRadius: '12px',
+                padding: '1rem',
+                textAlign: 'center',
+                boxShadow: '0 2px 6px rgba(0,0,0,0.15)',
+              }}
+            >
+              <img
+                src={`/img/about/${tester.id}.jpg`}
+                alt={tester.name}
+                style={{ borderRadius: '50%', marginBottom: '1rem', width: '150px', height: '150px', objectFit: 'cover' }}
+              />
+              <h3>{tester.name}</h3>
             </div>
           ))}
         </div>

@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Dorios Studios',
   tagline: 'Free Addons for the Minecraft Community',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/dorios_logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
