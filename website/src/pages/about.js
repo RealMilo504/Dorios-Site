@@ -104,9 +104,10 @@ export default function About() {
           }}
         >
           {[
-            { id: 'tester1', name: 'Tester One' },
-            { id: 'tester2', name: 'Tester Two' },
-            { id: 'tester3', name: 'Tester Three' },
+            { id: 'fear', name: 'Fear' },
+            { id: 'fresh', name: '!FreshInk¡' },
+            { id: 'roger', name: 'RogerZeew' },
+            { id: 'yash', name: 'Yash' }
           ].map((tester, i) => (
             <div
               key={i}
