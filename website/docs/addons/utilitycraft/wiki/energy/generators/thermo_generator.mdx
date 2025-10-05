@@ -9,8 +9,23 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 # Thermo Generator
 
-The **Thermo Generator** produces **Dorios Energy (DE)** when placed above a heat source such as **lava**, **magma blocks**, or **fire**.  
-The hotter the block, the more energy it generates. However, it requires **water for cooling** to function properly.
+<div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
+  <img 
+    src="/img/addons/utilitycraft/energy/basic_thermo_generator_render.png" 
+    alt="Basic Thermo Generator Render"
+    width="25%" 
+    style={{ marginRight: "1rem" }}
+  />
+  <div>
+    <p>
+      The <b>Thermo Generator</b> produces <b>Dorios Energy (DE)</b> when placed above a heat source such as <b>lava</b>, <b>magma blocks</b>, or <b>fire</b>.  
+      It operates passively without direct fuel input, requiring only water for cooling.
+    </p>
+    <p>
+      This generator is ideal for stable setups, as it combines passive heat-based generation with automatic cooling management.
+    </p>
+  </div>
+</div>
 
 ---
 
@@ -35,9 +50,9 @@ The hotter the block, the more energy it generates. However, it requires **water
 
 <p align="center">
   <img 
-    src="/img/addons/utilitycraft/energy/using_thermo_generator.png" 
+    src="/img/addons/utilitycraft/energy/using_thermo_generator.jpg" 
     alt="Thermo Generator Heat Sources" 
-    width="70%" 
+    width="30%" 
     style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
   />
 </p>
@@ -60,7 +75,7 @@ You can automate water input using **Fluid Pumps** or **Fluid Extractors** conne
 
 <p align="center">
   <img 
-    src="/img/addons/utilitycraft/energy/feeding_thermo_water.png" 
+    src="/img/addons/utilitycraft/energy/feeding_thermo_water.jpg" 
     alt="Feeding Water Thermo Generator" 
     width="70%" 
     style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
@@ -73,32 +88,48 @@ You can automate water input using **Fluid Pumps** or **Fluid Extractors** conne
 
 <p align="center">
   <img 
-    src="/img/addons/utilitycraft/energy/thermo_generator_ui.png" 
+    src="/img/addons/utilitycraft/energy/thermo_generator_ui.jpg" 
     alt="Thermo Generator UI" 
     width="70%" 
     style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
   />
 </p>
 
+The Thermo Generator interface displays its **stored energy**, **water level**, and **operational status**.  
+It updates in real time depending on the available water and the heat source below.  
+If either requirement is missing, the generator will pause until conditions are restored.
+
 ---
 
 ## Crafting Recipes
 
-<Carousel showThumbs={false} infiniteLoop={true} autoPlay={false} showStatus={false}>
+<Carousel showThumbs={false} showStatus={false} infiniteLoop emulateTouch>
   <div>
-    <img src="/img/addons/utilitycraft/recipes/thermo/basic_thermo_recipe.png" alt="Basic Thermo Generator Recipe" />
-    <p className="legend">Basic Thermo Generator</p>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_basic_thermo.png" 
+      alt="Energy Transfer by Direct Contact" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
   </div>
   <div>
-    <img src="/img/addons/utilitycraft/recipes/thermo/advanced_thermo_recipe.png" alt="Advanced Thermo Generator Recipe" />
-    <p className="legend">Advanced Thermo Generator</p>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_advanced_thermo.png" 
+      alt="Energy Transfer using Energy Cables" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
   </div>
   <div>
-    <img src="/img/addons/utilitycraft/recipes/thermo/expert_thermo_recipe.png" alt="Expert Thermo Generator Recipe" />
-    <p className="legend">Expert Thermo Generator</p>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_expert_thermo.png" 
+      alt="Energy Transfer using Batteries" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
   </div>
   <div>
-    <img src="/img/addons/utilitycraft/recipes/thermo/ultimate_thermo_recipe.png" alt="Ultimate Thermo Generator Recipe" />
-    <p className="legend">Ultimate Thermo Generator</p>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_ultimate_thermo.png" 
+      alt="Energy Transfer using Batteries" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
   </div>
 </Carousel>
