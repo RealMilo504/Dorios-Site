@@ -1,0 +1,123 @@
+---
+id: magmator
+title: Magmator
+sidebar_label: Magmator
+---
+
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+# Magmator
+
+The **Magmator** is a powerful energy generator in **UtilityCraft** designed for mid-to-late game progression.  
+It burns **lava** as fuel to produce **Dorios Energy (DE)**, offering one of the fastest energy generation rates available but requiring more maintenance than other generators.
+
+---
+
+## Energy Production & Storage Capacity
+
+The Magmator converts lava into DE at very high speeds.  
+Each **Lava Bucket** provides **100,000 DE**, and higher tiers increase both energy generation rate and storage capacity.
+
+| Tier | Rate (DE/t) | Energy Capacity (DE) | Lava Storage (mB) |
+|------|--------------|----------------------|-------------------|
+| Basic | 50 DE/t | 80k DE | 8,000 mB |
+| Advanced | 200 DE/t | 320k DE | 32,000 mB |
+| Expert | 800 DE/t | 1.28M DE | 128,000 mB |
+| Ultimate | 5,000 DE/t | 8M DE | 800,000 mB |
+
+Each tier increases the conversion speed and efficiency, allowing the Magmator to power larger setups efficiently.
+
+---
+
+## Feeding Lava to the Magmator
+
+The Magmator requires lava to operate.  
+There are two main ways to provide fuel:
+
+### 1. Manual Interaction
+
+Players can manually insert **Lava Buckets** or **Lava Balls** directly into the Magmator.  
+This method is simple and effective for early-game testing or small setups.
+
+### 2. Fluid Transport Systems
+
+For automated fueling, connect the Magmator to **Fluid Pumps** or **Fluid Extractors** using **Fluid Pipes**.
+
+**Fluid Pump:**  
+Fast and ideal for high-demand setups. It can extract lava from **Fluid Tanks**, **Crucibles**, or natural **lava source blocks**.
+
+**Fluid Extractors:**  
+Slightly slower but more flexible. Multiple extractors can pull from different sources, making them useful for modular or compact systems.
+
+<Carousel showThumbs={false} showStatus={false} infiniteLoop emulateTouch>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/feeding_magmator_manual.jpg" 
+      alt="Energy Transfer by Direct Contact" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "80%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/feeding_magmator_pipe.jpg" 
+      alt="Energy Transfer using Energy Cables" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+</Carousel>
+
+---
+
+## Magmator UI
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/energy/magmator_ui.png" 
+    alt="Magmator Interface" 
+    width="70%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+The interface includes:
+- **Fluid Tank Display** – shows the amount of stored lava.  
+- **Energy Bar** – displays the current DE level.  
+- **Progress Bar** – indicates how much of the current lava batch has been consumed.  
+- **Output Flow** – transfers stored energy to nearby machines or batteries automatically.
+
+---
+
+## Crafting Recipes
+
+<Carousel showThumbs={false} showStatus={false} infiniteLoop emulateTouch>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_basic_magmator.png" 
+      alt="Energy Transfer by Direct Contact" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_advanced_magmator.png" 
+      alt="Energy Transfer using Energy Cables" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_expert_magmator.png" 
+      alt="Energy Transfer using Batteries" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_ultimate_magmator.png" 
+      alt="Energy Transfer using Batteries" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+</Carousel>
+

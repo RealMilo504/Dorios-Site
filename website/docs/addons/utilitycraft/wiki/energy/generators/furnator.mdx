@@ -1,0 +1,156 @@
+---
+id: furnator
+title: Furnator
+sidebar_label: Furnator
+description: The Furnator is a solid-fuel generator that produces Dorios Energy (DE) for UtilityCraft machines.
+position: 1
+---
+
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+# Furnator
+
+<div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
+  <img 
+    src="/img/addons/utilitycraft/energy/basic_furnator_render.png" 
+    alt="Basic Furnator Render"
+    width="25%" 
+    style={{ marginRight: "1rem" }}
+  />
+  <div>
+    <p>
+      The <b>Furnator</b> is a generator that produces <b>Dorios Energy (DE)</b> by burning solid fuels.  
+      It is designed as an early-game power source and can be upgraded through multiple tiers for higher energy output and storage capacity.
+    </p>
+    <p>
+      The Furnator is simple to use — insert a valid fuel item, and it will begin generating energy automatically.
+    </p>
+  </div>
+</div>
+
+
+---
+
+## Tiers and Power Output
+
+Each Furnator tier increases both the rate of energy production (DE/t) and internal energy storage.  
+Higher tiers are more efficient, requiring less fuel to produce the same or greater energy output.
+
+| Tier | Output Rate (DE/t) | Internal Capacity (DE) |
+|------|---------------------|------------------------|
+| Basic | 40 DE/t | 48,000 DE |
+| Advanced | 160 DE/t | 192,000 DE |
+| Expert | 640 DE/t | 768,000 DE |
+| Ultimate | 4,000 DE/t | 4,800,000 DE |
+
+---
+
+## Accepted Fuels and Energy Produced
+
+The Furnator accepts almost any solid fuel item, including vanilla materials and some UtilityCraft items.  
+Different fuels generate different amounts of Dorios Energy depending on their efficiency.
+
+| Fuel | Energy Produced (DE) |
+|------|-----------------------|
+| Quadruple Compressed Coal Block | 80,000,000 |
+| Triple Compressed Coal Block | 8,000,000 |
+| Double Compressed Coal Block | 800,000 |
+| Compressed Coal Block | 80,000 |
+
+<details className="ds-clean">
+  <summary>
+    <span className="ds-arrow">▸</span>
+    <span>View full fuel list</span>
+  </summary>
+
+<br/>
+
+| Fuel | Energy Produced (DE) |
+|------|-----------------------|
+| Lava Ball | 100,000 |
+| Coal Block | 80,000 |
+| Dried Kelp Block | 20,000 |
+| Blaze Rod | 12,000 |
+| Coal | 8,000 |
+| Charcoal | 8,000 |
+| Boat | 6,000 |
+| Chest | 3,000 |
+| Plank | 1,500 |
+| Stair | 1,500 |
+| Fence | 1,500 |
+| Log | 1,500 |
+| Wood | 1,500 |
+| Stem | 1,500 |
+| Hyphae | 1,500 |
+| Banner | 1,500 |
+| Door | 1,000 |
+| Wooden Item (generic) | 1,000 |
+| Ladder | 750 |
+| Stick | 500 |
+| Sapling | 500 |
+| Button | 500 |
+| Leaves | 500 |
+| Scaffolding | 250 |
+
+</details>
+
+---
+
+## User Interface
+
+The Furnator includes a simple interface that shows the remaining fuel, energy generation rate, and stored Dorios Energy (DE).  
+Players can open the UI by interacting with the block.
+
+- **Fuel Slot:** Place the burnable item here.  
+- **Energy Bar:** Displays current stored DE.  
+- **Output Rate:** Shows current generation speed in DE/t.
+
+<p align="center">
+  <img src="/img/addons/utilitycraft/furnator_ui_placeholder.jpg" 
+       alt="Furnator Interface" 
+       width="70%" 
+       style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }} />
+</p>
+
+---
+
+## Crafting Recipe
+
+The Furnator is crafted using common early-game materials, making it the first accessible generator in UtilityCraft.
+
+<Carousel showThumbs={false} showStatus={false} infiniteLoop emulateTouch>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_basic_furnator.png" 
+      alt="Energy Transfer by Direct Contact" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_advanced_furnator.png" 
+      alt="Energy Transfer using Energy Cables" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_expert_furnator.png" 
+      alt="Energy Transfer using Batteries" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_ultimate_furnator.png" 
+      alt="Energy Transfer using Batteries" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+</Carousel>
+
+---
+
+The Furnator is an essential starting generator for UtilityCraft’s energy network.  
+It provides a simple and reliable way to begin powering your first machines before progressing to more advanced sources like the Magmator or Thermo Generator.

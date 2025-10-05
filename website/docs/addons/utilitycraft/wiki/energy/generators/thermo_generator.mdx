@@ -1,0 +1,104 @@
+---
+id: thermo_generator
+title: Thermo Generator
+sidebar_label: Thermo Generator
+---
+
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+# Thermo Generator
+
+The **Thermo Generator** produces **Dorios Energy (DE)** when placed above a heat source such as **lava**, **magma blocks**, or **fire**.  
+The hotter the block, the more energy it generates. However, it requires **water for cooling** to function properly.
+
+---
+
+## Energy & Storage Capacities
+
+| Tier | Rate (DE/t) | Energy Capacity | Water Capacity | Water Usage |
+|------|--------------|----------------|----------------|--------------|
+| **Basic** | 20 DE/t | 32,000 DE | 2,000 mB | 0.5 mB/t |
+| **Advanced** | 80 DE/t | 128,000 DE | 8,000 mB | 2 mB/t |
+| **Expert** | 320 DE/t | 512,000 DE | 32,000 mB | 8 mB/t |
+| **Ultimate** | 2,000 DE/t | 3,200,000 DE | 200,000 mB | 50 mB/t |
+
+---
+
+## Supported Heat Sources & Output
+
+| Heat Source | Energy Multiplier |
+|--------------|------------------|
+| **Lava** | x1.00 |
+| **Magma Block** | x0.75 |
+| **Fire** | x0.50 |
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/energy/using_thermo_generator.png" 
+    alt="Thermo Generator Heat Sources" 
+    width="70%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+---
+
+## Feeding Water to the Thermo Generator
+
+The Thermo Generator consumes **water** to prevent overheating and maintain stable operation.
+
+### Manual Interaction
+Use a **Water Bucket** to manually fill the generator — ideal for quick setups or testing.
+
+### Fluid Transport Systems
+You can automate water input using **Fluid Pumps** or **Fluid Extractors** connected with **Fluid Pipes**.
+
+- **Fluid Pump:** The fastest and most efficient method.  
+  Can draw water from a **Sink**, **Fluid Tank**, or even **source blocks**.  
+- **Fluid Extractors:** Slower but more flexible — multiple units can supply water steadily.
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/energy/feeding_thermo_water.png" 
+    alt="Feeding Water Thermo Generator" 
+    width="70%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+---
+
+## Thermo Generator UI
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/energy/thermo_generator_ui.png" 
+    alt="Thermo Generator UI" 
+    width="70%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+---
+
+## Crafting Recipes
+
+<Carousel showThumbs={false} infiniteLoop={true} autoPlay={false} showStatus={false}>
+  <div>
+    <img src="/img/addons/utilitycraft/recipes/thermo/basic_thermo_recipe.png" alt="Basic Thermo Generator Recipe" />
+    <p className="legend">Basic Thermo Generator</p>
+  </div>
+  <div>
+    <img src="/img/addons/utilitycraft/recipes/thermo/advanced_thermo_recipe.png" alt="Advanced Thermo Generator Recipe" />
+    <p className="legend">Advanced Thermo Generator</p>
+  </div>
+  <div>
+    <img src="/img/addons/utilitycraft/recipes/thermo/expert_thermo_recipe.png" alt="Expert Thermo Generator Recipe" />
+    <p className="legend">Expert Thermo Generator</p>
+  </div>
+  <div>
+    <img src="/img/addons/utilitycraft/recipes/thermo/ultimate_thermo_recipe.png" alt="Ultimate Thermo Generator Recipe" />
+    <p className="legend">Ultimate Thermo Generator</p>
+  </div>
+</Carousel>

@@ -1,0 +1,127 @@
+---
+id: overview
+title: Dorios Energy Overview
+sidebar_label: Overview
+description: Overview of how Dorios Energy (DE) is produced, used, transferred, and stored in UtilityCraft.
+position: 0
+---
+
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+# Dorios Energy System
+
+Dorios Energy (DE) is the main power source used by all machines and generators in UtilityCraft.  
+It allows players to automate tasks and operate advanced blocks that require power instead of fuel.
+
+---
+
+## What Is Dorios Energy (DE)
+
+Dorios Energy is a numeric unit that represents how much energy a block can create, store, or use.
+
+- It is measured in **DE/t**, which means *Dorios Energy per tick*.  
+- Minecraft runs at 20 ticks per second, so 20 DE/t = 400 DE per second.  
+- The same system is used across all UtilityCraft machines and generators, so they work together easily.  
+
+Every machine in UtilityCraft relies on DE to function. If a machine runs out of energy, it stops working until it is recharged.
+
+---
+
+## How Energy Is Produced
+
+Energy is mainly created through **generators**. Each generator converts a specific resource into Dorios Energy.
+
+| Generator | Fuel Type | Description |
+|------------|------------|-------------|
+| Furnator | Solid fuels such as coal, charcoal, and wood | Burns fuel items to produce a steady amount of energy. |
+| Magmator | Lava | Uses lava to create a stronger and longer energy output. |
+| Thermo Generator | Heat sources | Produces energy when placed near hot blocks like magma or fire. |
+| Solar Panel | Sunlight | Generates energy during the day depending on light level. |
+
+Each generator comes in four tiers: **Basic**, **Advanced**, **Expert**, and **Ultimate**.  
+Higher tiers generate more energy per tick and store more internally.
+
+Generators can directly power machines placed next to them, or send energy into a battery for later use.
+
+---
+
+## How Machines Use Energy
+
+Machines consume DE to perform their tasks.  
+Each machine has a fixed energy cost for its operation or uses energy gradually while active.
+
+Examples:
+- **Crusher** uses 800 DE for each item processed.  
+- **Electro Press** uses 800 DE per operation.  
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/energy/machine_using_energy_example.jpg" 
+    alt="Multiple Sieves in a 5x5 setup" 
+    width="75%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+Machines automatically pull energy from a connected generator or battery, as long as one of their six sides touches it.
+
+When a powered machine is broken, it keeps the energy stored inside, so you can move it without losing progress.
+
+---
+
+## Energy Transfer
+
+Energy in UtilityCraft can move in two main ways: **direct contact** or through **energy cables**.
+
+When two energy blocks are touching on one of their six faces (top, bottom, front, back, left, or right), energy will automatically transfer between them.  
+However, the recommended setup is to use **energy cables**, which make connections cleaner and more flexible for complex builds.
+
+<Carousel showThumbs={false} showStatus={false} infiniteLoop emulateTouch>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/energy_contact_transfer.jpg" 
+      alt="Energy Transfer by Direct Contact" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "65%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/energy_cables_transfer.jpg" 
+      alt="Energy Transfer using Energy Cables" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "75%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/energy_battery_transfer.jpg" 
+      alt="Energy Transfer using Batteries" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "75%", margin: "auto" }}
+    />
+  </div>
+</Carousel>
+
+Rules for transfer:
+- Generators send energy at their full output rate.  
+- Batteries transfer energy at their own transfer speed.  
+- Machines receive energy automatically from any connected cable or power source.  
+- Batteries cannot transfer energy directly to other batteries; a cable or machine must be between them.
+
+Using cables helps keep your network organized and allows longer-distance connections between machines and generators.
+
+Wireless energy transfer will be added in a future update, allowing power sharing without physical connections.
+
+---
+
+## Energy Storage
+
+Energy can be stored in **batteries** for later use.  
+Batteries act as buffers that keep energy when generators are off or when machines are disconnected.
+
+Each tier of battery holds more energy and transfers it faster.  
+More details about battery types and capacity are explained in the **Battery section**.
+
+---
+
+Dorios Energy is the foundation of UtilityCraft’s power network.  
+Understanding how it works will help you design efficient setups, connect your machines correctly, and avoid power shortages.

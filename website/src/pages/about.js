@@ -26,20 +26,24 @@ export default function About() {
           {/* Text */}
           <div style={{ flex: '1', minWidth: '300px' }}>
             <h2>Our Story</h2>
-            <p>
-              Dorios Studios was founded in <b>2020</b> by <b>Milo504</b>, originally known as <b>Drag504</b>. 
-              The early days were inconsistent — we would start projects and pause them, often coming back with new ideas. 
-              In <b>2021</b>, <b>WeatherVictor</b> joined and helped shape our UI and coding approach. 
-              Still, it wasn’t until <b>2024</b> when we decided to go all in.
+           <p style={{ textAlign: 'justify' }}>
+            <b>Milo504</b> began creating addons in <b>2020</b> with <b>More Armors</b>, 
+            later developing <b>Tools, Weapons and More</b> — a project that would eventually evolve into <b>UtilityCraft</b>. 
+            After a pause, he returned in <b>2022</b> alongside <b>WeatherVictor</b>, 
+            officially founding <b>Dorios Studios</b> on <b>September 9, 2022</b>. 
+            During that period, the team worked on several addons inconsistently, 
+            taking extended breaks between projects.
             </p>
-            <p>
-              With <b>JRice</b> joining as our lead designer, we launched <b>UtilityCraft 3.0</b>, 
-              a milestone that gave our studio recognition in the Minecraft Bedrock community. 
-              This release marked the beginning of a new era for us: consistent development, 
-              polished addons, and a growing community of players who support our vision.
+            <p style={{ textAlign: 'justify' }}>
+              After a year-long hiatus, the team came back at the beginning of <b>2024</b>, 
+              welcoming <b>JRice</b> as lead designer and texture artist. 
+              Together, they launched <b>UtilityCraft 3.0</b>, a milestone that gave the studio 
+              recognition within the Minecraft Bedrock community. 
+              Since then, more creators have joined the team, shaping <b>Dorios Studios </b> 
+              into the growing and passionate group it is today.
             </p>
             <h2>Our Mission</h2>
-            <p>
+            <p style={{ textAlign: 'justify' }}>
               We believe in creating <b>free, high-quality addons</b> for the Minecraft community. 
               Our mission is to give players tools and experiences that go beyond the base game: 
               automation systems, RPG adventures, custom mechanics, and more. 
