@@ -14,6 +14,17 @@ const config = {
   url: 'https://doriosstudios.com',
   baseUrl: '/',
 
+    headTags: [
+      {
+        tagName: 'meta',
+        attributes: {
+          name: 'algolia-site-verification',
+          content: 'CA75657DD7DCB62C',
+        },
+      },
+    ],
+
+
   organizationName: 'RealMilo504',
   projectName: 'Dorios-Site',
 
@@ -50,20 +61,7 @@ const config = {
     ],
   ],
 
-  // 🔍 Add local search plugin here
-  plugins: [
-    [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      {
-        hashed: true,
-        language: ['en'],
-        highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath: true,
-        searchBarShortcutHint: false,
-      },
-    ],
-  ],
-
+  // 🔍 Algolia DocSearch configuration
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -74,6 +72,17 @@ const config = {
         respectPrefersColorScheme: true,
       },
 
+      // ✅ Algolia search integration
+      algolia: {
+        appId: 'RKEKEVN76J',        
+        apiKey: '10014418accac562deb948ebb31798a8', 
+        indexName: 'Dorios Studios Documentation',  
+
+        contextualSearch: true,
+        searchParameters: {},
+        searchPagePath: 'search',
+      },
+
       navbar: {
         title: 'Dorios Studios',
         logo: {
@@ -81,7 +90,7 @@ const config = {
           src: 'img/dorios_logo.png',
         },
         items: [
-          { type: 'search', position: 'right' }, // ✅ Search bar added here
+          { type: 'search', position: 'right' }, 
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',

@@ -80,7 +80,7 @@ export default function Home() {
           {/* More Addons */}
           <div className="card addon-card">
             <div className="addon-logo">
-              <img src="/img/addons/cobble_generators/pack_icon.png" alt="More Addons icon" />
+              <img src="/img/addons/cobble_gens/pack_icon.jpg" alt="More Addons icon" />
             </div>
             <div className="addon-content">
               <h3>More Addons</h3>
