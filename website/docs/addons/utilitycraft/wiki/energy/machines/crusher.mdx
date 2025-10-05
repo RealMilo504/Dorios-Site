@@ -1,0 +1,205 @@
+---
+id: crusher
+title: Crusher
+sidebar_label: Crusher
+---
+
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+# Crusher
+
+<div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
+  <img 
+    src="/img/addons/utilitycraft/energy/crusher_render.png" 
+    alt="Crusher Render"
+    width="25%" 
+    style={{ marginRight: "1rem" }}
+  />
+  <div>
+    <p>
+      The <b>Crusher</b> is a machine that processes <b>ores, blocks, ingots, and plates</b> into their dust or simplified forms.  
+      It is designed for automation, ore doubling, and efficient material processing.
+    </p>
+    <p>
+      The Crusher consumes <b>800 DE per operation</b> and can be upgraded with <b>Speed Upgrades</b> to increase its processing rate.
+    </p>
+  </div>
+</div>
+
+---
+
+## Machine Data
+
+| Setting | Value |
+|----------|--------|
+| Energy Cap | 64,000 DE |
+| Energy Cost per Operation | 800 DE |
+| Base Processing Rate | 20 DE/t |
+
+
+---
+
+## Example Recipes
+
+These are some of the most common uses of the Crusher:
+
+<Carousel showThumbs={false} showStatus={false} infiniteLoop emulateTouch>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_crusher_cobblestone.png" 
+      alt="Cobblestone to Gravel Recipe"
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_crusher_chunks.png" 
+      alt="Iron Chunk to Dust Recipe"
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_crusher_ores.png" 
+      alt="Iron Chunk to Dust Recipe"
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_crusher_plates.png" 
+      alt="Iron Chunk to Dust Recipe"
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_crusher_obsidian.png" 
+      alt="Iron Chunk to Dust Recipe"
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+</Carousel>
+
+---
+
+## Crusher UI
+
+The Crusher interface displays its **energy storage**, **progress bar**, and **input/output slots**.  
+It automatically updates as materials are processed, allowing for fully automated setups.
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/energy/ui_crusher.png" 
+    alt="Crusher UI" 
+    width="70%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+---
+
+## Crafting Recipe
+
+<Carousel showThumbs={false} showStatus={false} infiniteLoop emulateTouch>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_crusher.png" 
+      alt="Crusher Recipe"
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+</Carousel>
+
+---
+
+## Recipes
+
+### Compressed Blocks
+
+| Input | Output | Amount |
+|--------|---------|--------|
+| Compressed Cobblestone | Compressed Gravel | 1 |
+| Compressed Gravel | Compressed Dirt | 1 |
+| Compressed Dirt | Compressed Sand | 1 |
+
+---
+
+### Stone & Natural Materials
+
+| Input | Output | Amount |
+|--------|---------|--------|
+| Stone | Cobblestone | 1 |
+| Cobblestone | Gravel | 1 |
+| Gravel | Dirt | 1 |
+| Dirt | Sand | 1 |
+| Netherrack | Crushed Netherrack | 1 |
+| End Stone | Crushed Endstone | 1 |
+| Deepslate | Cobbled Deepslate | 1 |
+| Cobbled Deepslate | Crushed Cobbled Deepslate | 1 |
+
+---
+
+### Ingots
+
+| Input | Output | Amount |
+|--------|---------|--------|
+| Iron Ingot | Iron Dust | 1 |
+| Gold Ingot | Gold Dust | 1 |
+| Copper Ingot | Copper Dust | 1 |
+| Netherite Ingot | Netherite Dust | 1 |
+| Steel Ingot | Steel Dust | 1 |
+| Energized Iron Ingot | Energized Iron Dust | 1 |
+| Netherite Scrap | Netherite Scrap Dust | 1 |
+
+---
+
+### Plates
+
+| Input | Output | Amount |
+|--------|---------|--------|
+| Iron Plate | Iron Dust | 1 |
+| Gold Plate | Gold Dust | 1 |
+| Copper Plate | Copper Dust | 1 |
+| Netherite Plate | Netherite Dust | 1 |
+| Steel Plate | Steel Dust | 1 |
+| Energized Iron Plate | Energized Iron Dust | 1 |
+
+---
+
+### Ores
+
+| Input | Output | Amount |
+|--------|---------|--------|
+| Raw Iron | Iron Dust | 2 |
+| Raw Gold | Gold Dust | 2 |
+| Raw Copper | Copper Dust | 2 |
+| Brute Steel | Steel Dust | 2 |
+| Brute Energized Iron | Energized Iron Dust | 2 |
+| Coal | Coal Dust | 2 |
+| Charcoal | Charcoal Dust | 2 |
+| Emerald | Emerald Dust | 2 |
+| Diamond | Diamond Dust | 2 |
+| Quartz | Quartz Dust | 2 |
+| Amethyst Shard | Amethyst Dust | 2 |
+| Ender Pearl | Ender Pearl Dust | 2 |
+| Obsidian | Obsidian Dust | 4 |
+| Crying Obsidian | Crying Obsidian Dust | 4 |
+
+---
+
+### Extra
+
+| Input | Output | Amount |
+|--------|---------|--------|
+| Blue Ice | Packed Ice | 9 |
+| Packed Ice | Ice | 9 |
+| Nether Wart Block | Nether Wart | 4 |
+| Magma Block | Magma Cream | 4 |
+| Slime Block | Slime Ball | 9 |
+| Bone Block | Bone Meal | 9 |
+| Bone | Bone Meal | 3 |
+| Any Wool Color | String | 4 |
+
+

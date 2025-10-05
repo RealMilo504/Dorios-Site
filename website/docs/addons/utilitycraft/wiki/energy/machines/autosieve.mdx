@@ -1,0 +1,198 @@
+---
+id: autosieve
+title: Autosieve
+sidebar_label: Autosieve
+---
+
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+# Autosieve
+
+<div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
+  <img 
+    src="/img/addons/utilitycraft/energy/autosieve_render.png" 
+    alt="Autosieve Render"
+    width="25%" 
+    style={{ marginRight: "1rem" }}
+  />
+  <div>
+    <p>
+      The <b>Autosieve</b> is a machine that automatically sifts <b>gravel, sand, dirt</b> and other sieveable materials to extract valuable drops.  
+      It requires <b>Dorios Energy (DE)</b> and a <b>mesh</b> to operate efficiently.
+    </p>
+    <p>
+      The Autosieve can be upgraded with <b>Speed Upgrades</b> to reduce processing time, and its efficiency increases depending on the amount of energy upgrades installed.
+    </p>
+  </div>
+</div>
+
+---
+
+## Machine Data
+
+| Setting | Value |
+|----------|--------|
+| Energy Capacity | 512,000 DE |
+| Energy Cost per Operation | 6400 DE |
+| Base Processing Rate | 160 DE/t |
+| Accepts Speed Upgrades | Yes |
+
+---
+
+## Mesh Multipliers
+
+| Mesh Type | Multiplier |
+|------------|-------------|
+| String Mesh | x0.75 |
+| Flint Mesh | x1 |
+| Copper Mesh | x1.25 |
+| Iron Mesh | x1.5 |
+| Golden Mesh | x2 |
+| Emerald Mesh | x2.5 |
+| Diamond Mesh | x3 |
+| Netherite Mesh | x4 |
+
+---
+
+## Autosieve UI
+
+The Autosieve interface displays its **energy storage**, **mesh slot**, and **progress bar**.  
+Once powered and provided with a mesh, it will automatically process any valid block inserted into its input slot.
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/energy/autosieve_ui.png" 
+    alt="Autosieve UI"
+    width="70%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+---
+
+## Crafting Recipe
+
+<Carousel showThumbs={false} showStatus={false} infiniteLoop emulateTouch>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/energy/recipe_autosieve.png" 
+      alt="Autosieve Recipe"
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+</Carousel>
+
+---
+
+## Sieveable Blocks & Drops
+
+### Gravel
+
+| Item | Amount | Chance (%) |
+|------|---------|-------------|
+| Flint | 1 | 20 |
+| Raw Iron | 1 | 10 |
+| Coal | 1 | 15 |
+| Raw Gold | 1 | 5 |
+| Lapis Lazuli | 1 | 5 |
+| Emerald | 1 | 2 |
+| Diamond | 1 | 0.75 |
+
+---
+
+### Dirt
+
+| Item | Amount | Chance (%) |
+|------|---------|-------------|
+| Carrot | 1 | 10 |
+| Potato | 1 | 10 |
+| Wheat Seeds | 1 | 10 |
+| Pumpkin Seeds | 1 | 10 |
+| Beetroot Seeds | 1 | 10 |
+| Melon Seeds | 1 | 10 |
+| Sugar Cane | 1 | 10 |
+| Bamboo | 1 | 10 |
+| Sapling | 1 | 10 |
+| Cherry Sapling | 1 | 10 |
+
+---
+
+### Grass
+
+| Item | Amount | Chance (%) |
+|------|---------|-------------|
+| Red Flower | 1 | 20 |
+| Yellow Flower | 1 | 20 |
+| Double Plant | 1 | 20 |
+| Torchflower | 1 | 20 |
+| Pitcher Plant | 1 | 20 |
+| Pink Petals | 1 | 20 |
+
+---
+
+### Sand
+
+| Item | Amount | Chance (%) |
+|------|---------|-------------|
+| Prismarine Shard | 1 | 10 |
+| Prismarine Crystals | 1 | 10 |
+| Raw Copper | 1 | 10 |
+| Bone Meal | 1 | 25 |
+| Redstone | 1 | 8 |
+| Gunpowder | 1 | 12 |
+| Glowstone Dust | 1 | 8 |
+| Blaze Powder | 1 | 5 |
+| Cactus | 1 | 10 |
+| Cocoa Beans | 1 | 8 |
+
+---
+
+### Soul Sand
+
+| Item | Amount | Chance (%) |
+|------|---------|-------------|
+| Quartz | 1 | 33 |
+| Quartz | 3 | 10 |
+| Bone | 1 | 15 |
+| Ghast Tear | 1 | 8 |
+| Nether Wart | 1 | 12 |
+
+---
+
+### Crushed Netherrack
+
+| Item | Amount | Chance (%) |
+|------|---------|-------------|
+| Quartz | 1 | 33 |
+| Gold Nugget | 1 | 20 |
+| Raw Gold | 1 | 10 |
+| Netherite Scrap | 1 | 0.5 |
+
+---
+
+### Crushed Endstone
+
+| Item | Amount | Chance (%) |
+|------|---------|-------------|
+| Chorus Flower | 1 | 1 |
+| Chorus Fruit | 1 | 8 |
+| Ender Pearl | 1 | 16 |
+
+---
+
+### Crushed Cobbled Deepslate
+
+| Item | Amount | Chance (%) |
+|------|---------|-------------|
+| Echo Shard | 1 | 5 |
+| Sculk Catalyst | 1 | 0.5 |
+| Amethyst | 1 | 1 |
+| Diamond | 1 | 2.5 |
+| Emerald | 1 | 5 |
+| Raw Gold | 1 | 8 |
+| Raw Iron | 1 | 12 |
+| Lapis Lazuli | 1 | 8 |
+| Coal | 1 | 10 |
+
+
