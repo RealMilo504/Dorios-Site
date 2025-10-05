@@ -3,6 +3,7 @@ id: intro
 title: Bountiful Bonsais – Introduction
 sidebar_label: Bountiful Bonsais
 sidebar_position: 1
+pagination_prev: null
 ---
 
 # Bountiful Bonsais

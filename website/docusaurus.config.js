@@ -111,32 +111,27 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'About',
-            items: [
-              { label: 'About Us', to: '/about' },
-              { label: 'GitHub', href: 'https://github.com/RealMilo504' },
-              {
-                label: 'Patreon',
-                href: 'https://patreon.com/DoriosStudios?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink',
-              },
-            ],
-          },
-          {
-            title: 'Docs',
-            items: [
-              { label: 'UtilityCraft', to: '/docs/addons/utilitycraft/' },
-              { label: 'Bountiful Bonsais', to: '/docs/addons/bountiful_bonsais/' },
-              { label: `Dorios' Trinkets`, to: '/docs/addons/dorios_trinkets/' },
-              { label: 'Our Add-Ons', to: '/docs/addons' },
-            ],
-          },
-          {
             title: 'Community',
             items: [
-              { label: 'Discord', href: 'https://discord.gg/x36H3ZtmK5' },
-              { label: 'YouTube', href: 'https://www.youtube.com/@doriosstudios' },
-              { label: 'CurseForge', href: 'https://www.curseforge.com/minecraft-bedrock/addons' },
-              { label: 'MCPEDL', href: 'https://mcpedl.com/user/doriosstudios/' },
+               {
+                html: `
+                  <a href="https://discord.gg/x36H3ZtmK5" target="_blank" rel="noopener">
+                    <img src="https://cdn.simpleicons.org/discord/ffffff" alt="Discord" width="24" height="24" style="margin: 0 8px; opacity:0.8; transition:0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'" />
+                  </a>
+                  <a href="https://www.youtube.com/@doriosstudios" target="_blank" rel="noopener">
+                    <img src="https://cdn.simpleicons.org/youtube/ffffff" alt="YouTube" width="24" height="24" style="margin: 0 8px; opacity:0.8; transition:0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'" />
+                  </a>
+                  <a href="https://www.curseforge.com/minecraft-bedrock/addons" target="_blank" rel="noopener">
+                    <img src="https://cdn.simpleicons.org/curseforge/ffffff" alt="CurseForge" width="24" height="24" style="margin: 0 8px; opacity:0.8; transition:0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'" />
+                  </a>
+                  <a href="https://www.patreon.com/DoriosStudios" target="_blank" rel="noopener">
+                    <img src="https://cdn.simpleicons.org/patreon/ffffff" alt="Patreon" width="24" height="24" style="opacity:0.8; transition:0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'" />
+                  </a>
+                  <a href="https://github.com/RealMilo504" target="_blank" rel="noopener">
+                    <img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub" width="24" height="24" style="margin: 0 8px; opacity:0.8; transition:0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'" />
+                  </a>
+                `,
+              },
             ],
           },
         ],
@@ -148,8 +143,8 @@ const config = {
           height: 40,
         },
         copyright: `
-          © ${new Date().getFullYear()} Dorios Studios — Creating worlds, one addon at a time.<br/>
-          Built with ❤️ using Docusaurus.
+        © ${new Date().getFullYear()} Dorios Studios — Creating worlds, one addon at a time.<br/>
+        Website built by <strong>Milo504</strong> with ❤️ using Docusaurus.
         `,
       },
 

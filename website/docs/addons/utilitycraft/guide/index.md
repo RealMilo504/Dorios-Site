@@ -2,6 +2,7 @@
 id: index
 title: UtilityCraft Guide
 sidebar_label: Guide
+pagination_prev: null
 ---
 
 # UtilityCraft Guide

@@ -2,6 +2,7 @@
 id: utilitycraft-wiki
 title: UtilityCraft Wiki
 sidebar_label: Wiki
+pagination_prev: null
 ---
 
 # Welcome to the Wiki

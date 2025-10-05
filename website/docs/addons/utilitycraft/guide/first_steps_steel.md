@@ -81,7 +81,7 @@ Before proceeding, make sure you’ve collected:
   <img 
     src="/img/addons/utilitycraft/sieving_sand_resources.jpg" 
     alt="Sieving Sand for Copper and Redstone" 
-    width="70%" 
+    width="75%" 
     style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
   />
 </p>

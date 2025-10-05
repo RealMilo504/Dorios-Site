@@ -3,6 +3,7 @@ id: intro
 title: UtilityCraft – Introduction
 sidebar_label: UtilityCraft
 sidebar_position: 0
+pagination_prev: null
 ---
 
 # UtilityCraft
