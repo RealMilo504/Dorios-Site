@@ -98,12 +98,7 @@ const config = {
             label: 'Pages',
           },
           { to: '/about', label: 'About Us', position: 'left' },
-          { to: '/blog', label: 'Blog', position: 'left' },
-          {
-            href: 'https://github.com/RealMilo504/Dorios-Site',
-            label: 'GitHub',
-            position: 'right',
-          },
+          { to: '/blog', label: 'Blog', position: 'left' }
         ],
       },
 
