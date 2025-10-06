@@ -49,6 +49,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
+             include: ['**/*.md', '**/*.mdx'],
           editUrl: 'https://github.com/RealMilo504/Dorios-Site/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -59,9 +60,9 @@ const config = {
         },
       }),
     ],
+    
   ],
 
-  // 🔍 Algolia DocSearch configuration
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -72,7 +73,6 @@ const config = {
         respectPrefersColorScheme: true,
       },
 
-      // ✅ Algolia search integration
       algolia: {
         appId: 'RKEKEVN76J',        
         apiKey: '10014418accac562deb948ebb31798a8', 

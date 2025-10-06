@@ -1,19 +1,99 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+utilitycraft:
+  label: UtilityCraft
+  permalink: /utilitycraft
+  description: Posts related to the UtilityCraft addon, its machines, energy system, and updates.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+bountiful-bonsais:
+  label: Bountiful Bonsais
+  permalink: /bountiful-bonsais
+  description: News and information about the Bountiful Bonsais addon.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+better-smelters:
+  label: Better Smelters
+  permalink: /better-smelters
+  description: Articles about Better Smelters, the upgraded furnace system.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+dorios-trinkets:
+  label: Dorios' Trinkets
+  permalink: /dorios-trinkets
+  description: Posts about Dorios' Trinkets and its unique trinket abilities.
+
+update:
+  label: Update
+  permalink: /update
+  description: Announcements and changelogs for new versions and features.
+
+devlog:
+  label: Dev Log
+  permalink: /devlog
+  description: Developer logs sharing behind-the-scenes progress and insights.
+
+release:
+  label: Release
+  permalink: /release
+  description: Official release posts for Dorios Studios projects and addons.
+
+projects:
+  label: Projects
+  permalink: /projects
+  description: General information about ongoing Dorios Studios projects.
+
+servers:
+  label: Servers
+  permalink: /servers
+  description: Posts about Dorios Studios' Minecraft servers, worlds, and multiplayer development.
+
+endless-agony:
+  label: Endless Agony
+  permalink: /endless-agony
+  description: Updates and lore entries about the Endless Agony RPG server project.
+
+dorios-studios:
+  label: Dorios Studios
+  permalink: /dorios-studios
+  description: Posts related to Dorios Studios team, announcements, and events.
+
+community:
+  label: Community
+  permalink: /community
+  description: Articles involving community updates, contributions, or collaborations.
+
+showcase:
+  label: Showcase
+  permalink: /showcase
+  description: Featured creations, builds, and designs from Dorios Studios.
+
+machines:
+  label: Machines
+  permalink: /machines
+  description: Technical articles about UtilityCraft machinery and automation systems.
+
+energy-system:
+  label: Energy System
+  permalink: /energy-system
+  description: Topics related to Dorios Energy mechanics and power networks.
+
+tutorials:
+  label: Tutorials
+  permalink: /tutorials
+  description: Guides and tutorials for addons, setup, or technical implementation.
+
+scripting:
+  label: Scripting
+  permalink: /scripting
+  description: Articles focused on Bedrock scripting, API development, and internal systems.
+
+announcement:
+  label: Announcement
+  permalink: /announcement
+  description: General announcements from Dorios Studios.
+
+behind-the-scenes:
+  label: Behind the Scenes
+  permalink: /behind-the-scenes
+  description: Insight into development processes, tools, and workflow at Dorios Studios.
+
+events:
+  label: Events
+  permalink: /events
+  description: Posts about community events, releases, and project launches.
