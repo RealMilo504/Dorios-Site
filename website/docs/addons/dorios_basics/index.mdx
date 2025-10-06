@@ -1,0 +1,190 @@
+---
+id: dorios-basics
+title: Dorios' Basics
+sidebar_label: Dorios' Basics
+---
+
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+<div style={{ textAlign: "center", marginBottom: "2rem" }}>
+  <img 
+    src="/img/addons/basics/bg.jpg" 
+    alt="Dorios' Basics Render"
+    width="70%"
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</div>
+
+<p>
+  <b>Dorios' Basics</b> is part of the <b>UtilityCraft</b> addon pack and focuses on improving early-game survival and resource gathering.  
+  It introduces tools like <b>Pebbles</b>, <b>Hammers</b>, <b>Sieves</b>, <b>Crucibles</b>, and <b>Sinks</b> — essential mechanics for 
+  Skyblock-style starts or minimalist progression worlds.
+</p>
+
+This module provides the foundation for UtilityCraft’s early progression loop.  
+Players can generate resources from minimal materials and automate their basic survival setups.
+
+
+---
+
+## Pebbles
+
+Use a <b>Wooden</b> or <b>Stone Hammer</b> while sneaking and interacting with the ground to collect small fragments called <b>Pebbles</b>.
+
+These can be recombined into full blocks, making it possible to rebuild stone resources even in Skyblock-like environments.
+
+| Source Block | Pebble Type |
+|---------------|-------------|
+| Grass / Dirt | Dirt Pebble |
+| Stone | Stone Pebble |
+| Gravel | Gravel Pebble |
+| Granite | Granite Pebble |
+| Diorite | Diorite Pebble |
+| Andesite | Andesite Pebble |
+
+---
+
+## Hammers
+
+Hammers are the cornerstone of resource progression.  
+They allow players to break blocks down into smaller materials:
+
+| Input | Output |
+|--------|---------|
+| Cobblestone | Gravel |
+| Gravel | Dirt |
+| Dirt | Sand |
+| Netherrack | Crushed Netherrack |
+| Cobbled Deepslate | Crushed Deepslate |
+| End Stone | Crushed End Stone |
+
+> Combine hammers with **Sieves** for optimal ore farming.
+
+
+<Carousel showThumbs={false} showStatus={false} infiniteLoop emulateTouch>
+  <div>
+    <img 
+      src= "/img/addons/basics/hammer_use.jpg" 
+      alt="String Mesh Recipe" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src= "/img/addons/basics/hammer_craft.jpg"
+      alt="String Mesh Recipe" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+</Carousel>
+
+---
+
+## Flint Knife
+
+Craft **Flint** using 3 Gravel directly in your inventory, then make a **Flint Knife**.  
+Use it to harvest **Plant Fibers** from leaves.
+
+- Combine 3 Fiber → **String**  
+- Enables early crafting recipes before you can hunt spiders.
+
+---
+
+## Mortar — Getting Water
+
+The **Mortar** extracts water from saplings and is essential for early hydration.
+
+**Crafting Recipe:**
+- 3 Cobblestone  
+- 1 Stone Pebble  
+
+**Usage:**  
+Place **2 Saplings**, **1 Glass Bottle**, and **1 Mortar** in your inventory crafting grid to create a **Water Bottle**.  
+The mortar is **not consumed**.
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/recipe_water_mortar.jpg"
+    alt="Mortar Crafting Example"
+    width="60%"
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+---
+
+## Sieve
+
+The **Sieve** filters blocks such as gravel, dirt, or sand to extract valuable materials and seeds.  
+Place a mesh inside, add a siftable block on top, and start filtering!
+
+- Works in **groups up to 5x5 (25 sieves total)**.  
+- Interacting with one activates all adjacent sieves at once.
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/using_multiple_sieves.jpg" 
+    alt="Multiple Sieves in a 5x5 setup" 
+    width="75%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+---
+
+## Crucible
+
+Use the **Crucible** to convert cobblestone into **Lava** or **Obsidian** using different heat sources.
+
+| Heat Source | Strength |
+|--------------|-----------|
+| Torch | 1 |
+| Fire / Campfire / Magma | 2 |
+| Soul Fire / Soul Torch | 3 |
+| Lava | 4 |
+
+> Place cobblestone in the crucible, wait for it to melt, then collect with a bucket.
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/crucible_torch.jpg" 
+    alt="Crucible Heat Source" 
+    width="75%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+---
+
+## Sink
+
+Crafting a **Sink** gives you an **infinite water source**, perfect for automated crops and machine setups.
+
+---
+
+## Example Recipes
+
+<Carousel showThumbs={false} showStatus={false} infiniteLoop emulateTouch>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/recipe_flint_knife.jpg" 
+      alt="Flint Knife Crafting" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+  <div>
+    <img 
+      src="/img/addons/utilitycraft/recipe_fiber.jpg" 
+      alt="Plant Fiber to String" 
+      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)", width: "60%", margin: "auto" }}
+    />
+  </div>
+</Carousel>
+
+---
+
+## Integration
+
+Dorios’ Basics is the **first module** in the **UtilityCraft** progression chain,  
+providing the groundwork for later automation, energy systems, and advanced machinery.

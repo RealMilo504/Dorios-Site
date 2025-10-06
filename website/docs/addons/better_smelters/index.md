@@ -7,25 +7,26 @@ sidebar_label: Better Smelters
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-<div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
+<div style={{ textAlign: "center", marginBottom: "2rem" }}>
   <img 
-    src="/img/addons/better_smelters/better_smelters_render.png" 
+    src="/img/addons/smelters/bg.jpg" 
     alt="Better Smelters Render"
-    width="40%"
+    width="70%"
     style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
   />
-  <div>
-    <h2>Overview</h2>
-    <p>
-      The <b>Better Smelters</b> addon introduces a variety of improved furnaces crafted from ores 
-      and rare materials. Each tier smelts faster and consumes less fuel, allowing players to 
-      process resources more efficiently as they progress through the game.
-    </p>
-    <p>
-      These upgraded smelters can be used manually or fully automated using hoppers, chests, and other item transport systems.
-    </p>
-  </div>
 </div>
+
+<p>
+  The <b>Better Smelters</b> addon introduces a variety of improved furnaces crafted from ores 
+  and rare materials. Each tier smelts faster and consumes less fuel, allowing players to 
+  process resources more efficiently as they progress through the game.
+</p>
+
+<p>
+  These upgraded smelters can be used manually or fully automated using hoppers, chests, 
+  and other item transport systems.
+</p>
+
 
 ---
 
@@ -62,7 +63,7 @@ This system allows you to set up complete smelting lines that run on their own.
 
 <p align="center">
   <img 
-    src="/img/addons/better_smelters/smelter_setup_placeholder.png"
+    src="/img/addons/smelters/smelter_setup.jpg"
     alt="Automation Setup Example"
     width="70%"
     style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
@@ -75,24 +76,21 @@ This system allows you to set up complete smelting lines that run on their own.
 
 <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} showStatus={false}>
   <div>
-    <img src="/img/addons/better_smelters/copper_furnace_recipe.png" alt="Copper Furnace Recipe" />
-    <p className="legend">Copper Furnace Recipe</p>
+    <img src="/img/addons/smelters/copper_furnace_recipe.png" alt="Copper Furnace Recipe" />
   </div>
   <div>
-    <img src="/img/addons/better_smelters/iron_furnace_recipe.png" alt="Iron Furnace Recipe" />
-    <p className="legend">Iron Furnace Recipe</p>
+    <img src="/img/addons/smelters/iron_furnace_recipe.png" alt="Iron Furnace Recipe" />
   </div>
   <div>
-    <img src="/img/addons/better_smelters/gold_furnace_recipe.png" alt="Gold Furnace Recipe" />
-    <p className="legend">Gold Furnace Recipe</p>
+    <img src="/img/addons/smelters/gold_furnace_recipe.png" alt="Gold Furnace Recipe" />
   </div>
   <div>
-    <img src="/img/addons/better_smelters/netherite_furnace_recipe.png" alt="Netherite Furnace Recipe" />
-    <p className="legend">Netherite Furnace Recipe</p>
+    <img src="/img/addons/smelters/netherite_furnace_recipe.png" alt="Netherite Furnace Recipe" />
   </div>
 </Carousel>
 
-> 🧱 The **Netherite Furnace** can be crafted using either a **Diamond Furnace** or an **Amethyst Furnace** as part of the recipe.
+
+> The **Netherite Furnace** can be crafted using either a **Diamond Furnace** or an **Amethyst Furnace** as part of the recipe.
 
 ---
 
@@ -102,20 +100,3 @@ This system allows you to set up complete smelting lines that run on their own.
 - The **Wood Furnace** disappears after a few minutes of use.  
 - Supports full automation with hoppers and containers.  
 - Perfect for large-scale smelting setups or late-game automation bases.
-
----
-
-<p align="center">
-  <a href="https://discord.gg/YvzPqJZTNd" target="_blank">
-    <img 
-      src="/img/addons/better_smelters/discord_placeholder.png"
-      alt="Dorios Studios Discord"
-      width="40%"
-      style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
-    />
-  </a>
-</p>
-
-<p align="center">
-  <i>Join our Discord to follow updates, share ideas, and report bugs!</i>
-</p>
