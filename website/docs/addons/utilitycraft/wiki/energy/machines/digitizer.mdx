@@ -1,0 +1,97 @@
+---
+id: digitizer
+title: Digitizer
+sidebar_label: Digitizer
+---
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/machines/digitizer_render.png" 
+    alt="Digitizer Render" 
+    width="70%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+The **Digitizer** records crafting recipes onto a **Blueprint**, allowing them to be used by the **Assembler** for automated crafting.
+
+---
+
+### Machine Information
+
+| Setting | Value |
+|----------|--------|
+| **Energy Cap** | 8,000 DE |
+| **Energy Cost per Operation** | 100 DE |
+| **Base Processing Speed** | 5 DE/t |
+
+💡 **Tip:** The Digitizer is essential for automation setups that use the **Assembler**, storing recipes for later use.
+
+---
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/machines/digitizer_ui.png" 
+    alt="Digitizer Interface" 
+    width="70%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+---
+
+### Usage Examples
+
+| Input | Output |
+|--------|---------|
+| Crafting Grid + Blueprint | Saves recipe to Blueprint |
+| Machine Case Recipe | Creates stored Blueprint for Assembler |
+
+---
+
+### Crafting Recipe
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/machines/digitizer_recipe.png" 
+    alt="Digitizer Crafting Recipe" 
+    width="60%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+---
+
+## How It Works
+
+Uses a standard **3×3 crafting grid**, just like a crafting table.  
+It accepts any **vanilla** or **custom recipe** from the **Workbench**.
+
+- Requires a **Blueprint** and **some energy** to function.  
+- Once activated, it saves the selected recipe onto the Blueprint.  
+- The stored Blueprint can then be used by the **Assembler** for automation.
+
+---
+
+### Blueprint
+
+The **Blueprint** stores the recipe information below its name, showing both the **crafted item** and its **required materials**.
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/machines/blueprint_info.png" 
+    alt="Blueprint Example" 
+    width="60%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+---
+
+### How to Use
+
+1. Place the **Digitizer** in your world.  
+2. Insert a **Blueprint** in the designated slot.  
+3. Arrange a valid recipe in the **3×3 crafting grid**.  
+4. Activate the Digitizer to **record** the recipe.  
+5. The saved Blueprint can now be inserted into the **Assembler** for automated crafting.

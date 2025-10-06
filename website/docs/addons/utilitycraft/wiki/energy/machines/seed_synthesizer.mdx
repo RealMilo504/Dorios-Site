@@ -1,0 +1,116 @@
+---
+id: seed_synthesizer
+title: Seed Synthesizer
+sidebar_label: Seed Synthesizer
+---
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/machines/seed_synthesizer_render.png" 
+    alt="Seed Synthesizer Render" 
+    width="70%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+The **Seed Synthesizer** is a UtilityCraft machine that simulates crop and tree growth from **Bountiful Bonsais** and **Bountiful Crops**,  
+allowing automated farming without the need for space or manual harvesting.
+
+---
+
+### Machine Information
+
+| Setting | Value |
+|----------|--------|
+| **Energy Cap** | 128,000 DE |
+| **Energy Cost** | Varies by crop type and soil |
+
+💡 **Tip:** The Seed Synthesizer uses the same loot tables as Bountiful Bonsais and Bountiful Crops,  
+allowing seamless integration between both systems.
+
+---
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/machines/seed_synthesizer_ui.png" 
+    alt="Seed Synthesizer Interface" 
+    width="70%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+---
+
+### Usage Examples
+
+| Seed | Soil | Result |
+|--------|------|---------|
+| Oak Sapling | Grass Block | Grows tree loot |
+| Wheat Seeds | Red Soil | Produces wheat faster with less DE |
+
+---
+
+### Crafting Recipe
+
+<p align="center">
+  <img 
+    src="/img/addons/utilitycraft/machines/seed_synthesizer_recipe.png" 
+    alt="Seed Synthesizer Crafting Recipe" 
+    width="60%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+---
+
+## Growth Costs by Crop Type
+
+| Crop Type | Energy Cost per Cycle |
+|------------|------------------------|
+| Trees, Vanilla Crops, Bamboo, Cactus, Kelp, Sugar Cane, Mushrooms | 32,000 DE |
+| Bountiful Crops Tier 1 | 64,000 DE |
+| Bountiful Crops Tier 2 | 128,000 DE |
+| Bountiful Crops Tier 3 | 256,000 DE |
+| Bountiful Crops Tier 4 | 1,024,000 DE |
+
+📌 Higher-tier crops require significantly more energy to simulate growth.
+
+---
+
+## Speed Upgrade Scaling
+
+| Speed Level | Speed Multiplier |
+|--------------|------------------|
+| 0 (No Upgrades) | x1 |
+| 1 | x2 |
+| 2 | x4 |
+| 3 | x8 |
+| 4 | x16 |
+
+**Formula:**  
+`Rate Speed = Base Rate * Soil Speed Multiplier * 2^(Speed Level)`
+
+---
+
+## Soil Effects on Growth & Energy Cost
+
+| Soil Type | Energy Cost Multiplier | Speed Multiplier |
+|------------|------------------------|------------------|
+| Dirt | 2x | 0.5x |
+| Grass Block | 1.5x | 1x |
+| Yellow Soil | 1x | 1x |
+| Red Soil | 0.75x | 2x |
+| Blue Soil | 0.5x | 4x |
+| Black Soil | 0.25x | 10x |
+
+📌 Better soils reduce energy cost and significantly boost growth speed.
+
+---
+
+### How to Use
+
+1. Place the **Seed Synthesizer** in your world.  
+2. Insert a **seed or sapling** in the upper slot.  
+3. Insert the **soil** in the lower slot.  
+4. Ensure enough stored energy for the crop type.  
+5. *(Optional)* Add **Speed Upgrades** to increase growth rate.
