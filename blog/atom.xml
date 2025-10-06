@@ -8,14 +8,15 @@
     <subtitle>Dorios Studios Blog</subtitle>
     <icon>https://doriosstudios.com/img/dorios_logo.png</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome to Dorios Studios Page]]></title>
-        <id>https://doriosstudios.com/blog/welcome-to-dorios-studios-page</id>
-        <link href="https://doriosstudios.com/blog/welcome-to-dorios-studios-page"/>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://doriosstudios.com/blog/welcome</id>
+        <link href="https://doriosstudios.com/blog/welcome"/>
         <updated>2025-10-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Dorios Studios officially launches its website — the new home for all our addons, wikis, and guides. Discover UtilityCraft, Dorios’ Trinkets, and our latest projects as we expand the Minecraft Bedrock experience.]]></summary>
+        <summary type="html"><![CDATA[Welcome to Dorios Studios — after days of work, our official website is finally live. Here we’ll be completing the full wiki for our addons, detailed guides, and everything you might need to solve your questions. This is just the start — we hope you enjoy what’s coming and join us in this new stage for the Minecraft Bedrock community.
+]]></summary>
         <content type="html"><![CDATA[<p align="center"><img src="https://doriosstudios.com/img/dorios_logo.png" alt="Dorios Studios Banner" width="25%" style="border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.25)"></p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-welcome-to-dorios-studios">🔥 Welcome to Dorios Studios<a href="https://doriosstudios.com/blog/welcome-to-dorios-studios-page#-welcome-to-dorios-studios" class="hash-link" aria-label="Direct link to 🔥 Welcome to Dorios Studios" title="Direct link to 🔥 Welcome to Dorios Studios" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-welcome-to-dorios-studios">🔥 Welcome to Dorios Studios<a href="https://doriosstudios.com/blog/welcome#-welcome-to-dorios-studios" class="hash-link" aria-label="Direct link to 🔥 Welcome to Dorios Studios" title="Direct link to 🔥 Welcome to Dorios Studios" translate="no">​</a></h2>
 <p>After days of work, we’re happy to finally open our official website.<br>
 <!-- -->Here we’ll be completing the full wiki for our addons, detailed guides, and everything you might need to solve your questions.</p>
 <p>This is just the start — we hope you enjoy what’s coming ❤️</p>
