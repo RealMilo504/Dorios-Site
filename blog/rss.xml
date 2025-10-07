@@ -4,10 +4,52 @@
         <title>Dorios Studios Blog</title>
         <link>https://doriosstudios.com/blog</link>
         <description>Dorios Studios Blog</description>
-        <lastBuildDate>Sun, 05 Oct 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Oct 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Dorios Excavate - Release]]></title>
+            <link>https://doriosstudios.com/blog/dorios-excavate-release</link>
+            <guid>https://doriosstudios.com/blog/dorios-excavate-release</guid>
+            <pubDate>Tue, 07 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dorios Excavate is now available — a smarter, achievement-compatible way to mine, chop, and dig in Minecraft Bedrock. Automate your excavation and customize every detail to fit your playstyle.
+]]></description>
+            <content:encoded><![CDATA[<p align="center"><iframe width="70%" height="400" src="https://www.youtube.com/embed/c-IrGsnSO04" title="Dorios Excavate – Smart Vein Miner (Minecraft Bedrock Add-On)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,0.25)"></iframe></p>
+<p>Tired of chopping trees or mining ores one block at a time?<br>
+<strong>Dorios Excavate</strong> introduces a smarter, faster, and achievement-friendly way to dig through Minecraft Bedrock.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="smarter-mining">Smarter Mining<a href="https://doriosstudios.com/blog/dorios-excavate-release#smarter-mining" class="hash-link" aria-label="Direct link to Smarter Mining" title="Direct link to Smarter Mining" translate="no">​</a></h2>
+<p>This addon reimagines how players mine and gather resources.<br>
+<!-- -->Instead of breaking blocks one by one, Excavate lets you instantly mine entire <strong>veins</strong>, <strong>trees</strong>, or <strong>tunnels</strong> — all while keeping lag to a minimum.</p>
+<p>Each block is processed with a short delay to maintain smooth performance even during large excavations, making it ideal for both survival and multiplayer servers.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="full-control-your-way">Full Control, Your Way<a href="https://doriosstudios.com/blog/dorios-excavate-release#full-control-your-way" class="hash-link" aria-label="Direct link to Full Control, Your Way" title="Direct link to Full Control, Your Way" translate="no">​</a></h2>
+<p>Every player can fully customize their excavation experience:</p>
+<ul>
+<li>Add or remove blocks from your whitelist</li>
+<li>Toggle the excavate ability on or off</li>
+<li>Change your <strong>Shape Mode</strong> (Line, Tunnel, Vein, etc.)</li>
+<li>Adjust your <strong>Block Limit</strong> for performance and balance</li>
+</ul>
+<p align="center"><img src="https://media.forgecdn.net/attachments/description/1316262/description_2f550cd4-d5d3-4c89-81ac-c3d45e499f5c.png" alt="Dorios Excavate Configuration Menu" width="70%" style="border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,0.25)"></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="works-with-achievements">Works With Achievements<a href="https://doriosstudios.com/blog/dorios-excavate-release#works-with-achievements" class="hash-link" aria-label="Direct link to Works With Achievements" title="Direct link to Works With Achievements" translate="no">​</a></h2>
+<p>One of Dorios Excavate’s strongest features is its <strong>compatibility with achievements</strong>.<br>
+<!-- -->That means you can use it in your survival worlds without disabling Xbox Live achievements — making it perfect for both casual and competitive players.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="performance-focused">Performance-Focused<a href="https://doriosstudios.com/blog/dorios-excavate-release#performance-focused" class="hash-link" aria-label="Direct link to Performance-Focused" title="Direct link to Performance-Focused" translate="no">​</a></h2>
+<p>Unlike traditional vein miners, Dorios Excavate was designed to be <strong>lag-friendly</strong>.<br>
+<!-- -->By spreading block-breaking operations over short intervals, it ensures stable tick performance even when excavating massive areas.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="available-commands">Available Commands<a href="https://doriosstudios.com/blog/dorios-excavate-release#available-commands" class="hash-link" aria-label="Direct link to Available Commands" title="Direct link to Available Commands" translate="no">​</a></h2>
+<div class="language-plaintext codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-plaintext codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">excavateadd              – Adds a block to your personal excavate whitelist.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">excavateblacklistadd     – Adds a block to the global blacklist. (Admin only)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">excavateblacklistremove  – Removes a block from the global blacklist. (Admin only)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">excavatedefaultadd       – Adds a block to the global default list. (Admin only)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">excavatedefaultremove    – Removes a block from the global default list. (Admin only)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">excavatelimit            – Sets your personal block limit for excavate.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">excavateopenmenu         – Opens your personal excavate configuration menu.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">excavateremove           – Removes a block from your personal excavate whitelist.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">excavateshape            – Changes your current excavate shape or pattern.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">excavatetoggle           – Toggles your excavate ability on or off.```</span><br></span></code></pre></div></div>]]></content:encoded>
+            <category>Dorios Studios</category>
+            <category>addon</category>
+            <category>Release</category>
+            <category>excavate</category>
+            <category>minecraft-bedrock</category>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://doriosstudios.com/blog/welcome</link>
