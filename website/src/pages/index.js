@@ -28,7 +28,7 @@ export default function Home() {
           {/* UtilityCraft */}
           <div className="card addon-card">
             <div className="addon-logo">
-              <img src="/img/addons/utilitycraft/pack_icon.png" alt="UtilityCraft icon" />
+              <img src="/img/addons/utilitycraft/pack_icon.jpg" alt="UtilityCraft icon" />
             </div>
             <div className="addon-content">
               <h3>UtilityCraft</h3>

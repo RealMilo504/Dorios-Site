@@ -77,47 +77,30 @@ This way, every step feels earned and every upgrade unlocks something new.
 
 ## Downloads
 
-<div style={{ display: "flex", justifyContent: "center", gap: "1rem", marginTop: "1rem" }}>
-  <a 
-    href="https://mcpedl.com/utilitycraft/#downloads" 
-    target="_blank"
-    style={{ 
-      backgroundColor: "#ff7f27",
-      color: "black",
-      fontSize: "1.2rem",
-      fontWeight: "bold",
-      padding: "0.5rem 1.5rem",
-      borderRadius: "6px",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      textDecoration: "none",
-      margin: 0,
-      minHeight: "48px"
-    }}
-  >
-    MCPEDL
-  </a>
-  <a 
-    href="https://www.curseforge.com/minecraft-bedrock/addons/utilitycraft/files/all?page=1&pageSize=20&showAlphaFiles=hide&sortBy=dateCreated&sortOrder=desct" 
-    target="_blank"
-    style={{ 
-      backgroundColor: "#ff7f27",
-      color: "black",
-      fontSize: "1.2rem",
-      fontWeight: "bold",
-      padding: "0.5rem 1.5rem",
-      borderRadius: "6px",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      textDecoration: "none",
-      margin: 0,
-      minHeight: "48px"
-    }}
-  >
-    CurseForge
-  </a>
+<div style={{ 
+  display: "flex", 
+  justifyContent: "center", 
+  gap: "1.5rem", 
+  marginTop: "2rem", 
+  flexWrap: "wrap"
+}}>
+
+<a 
+  href="https://mcpedl.com/utilitycraft/#downloads" 
+  target="_blank"
+  className="download-button"
+>
+  <span>MCPEDL</span>
+</a>
+
+<a 
+  href="https://www.curseforge.com/minecraft-bedrock/addons/utilitycraft"
+  target="_blank"
+  className="download-button"
+>
+  <span>CurseForge</span>
+</a>
 </div>
+
 
 ---

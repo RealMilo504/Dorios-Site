@@ -14,16 +14,15 @@ const config = {
   url: 'https://doriosstudios.com',
   baseUrl: '/',
 
-    headTags: [
-      {
-        tagName: 'meta',
-        attributes: {
-          name: 'algolia-site-verification',
-          content: 'CA75657DD7DCB62C',
-        },
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: 'CA75657DD7DCB62C',
       },
-    ],
-
+    },
+  ],
 
   organizationName: 'RealMilo504',
   projectName: 'Dorios-Site',
@@ -49,7 +48,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-             include: ['**/*.md', '**/*.mdx'],
+          include: ['**/*.md', '**/*.mdx'],
           editUrl: 'https://github.com/RealMilo504/Dorios-Site/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -58,9 +57,12 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+          trackingID: 'G-LZN8PGKZFW',
+          anonymizeIP: true,
+        },
       }),
     ],
-    
   ],
 
   themeConfig:
@@ -68,15 +70,43 @@ const config = {
     ({
       image: 'img/dorios-social-card.jpg',
 
+    metadata: [
+       {
+      name: 'description',
+      content:
+        'Dorios Studios — creators of free Minecraft Bedrock addons like UtilityCraft and more. Join our Discord community and explore our collection of high-quality, completely free addons.',
+      },
+      {
+        property: 'og:title',
+        content: 'Dorios Studios - Free Minecraft Bedrock Addons',
+      },
+      {
+        property: 'og:description',
+        content:
+          'Dorios Studios creates completely free Minecraft Bedrock addons, including UtilityCraft and other community projects.',
+      },
+      {
+        property: 'og:image',
+        content: 'https://doriosstudios.com/img/DORIOS.png',
+      },
+      {
+        property: 'og:url',
+        content: 'https://doriosstudios.com',
+      },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:site_name', content: 'Dorios Studios' },
+      { property: 'og:locale', content: 'en_US' },
+      ],
+
       colorMode: {
         defaultMode: 'light',
         respectPrefersColorScheme: true,
       },
 
       algolia: {
-        appId: 'RKEKEVN76J',        
-        apiKey: '10014418accac562deb948ebb31798a8', 
-        indexName: 'Dorios Studios Documentation',  
+        appId: 'RKEKEVN76J',
+        apiKey: '10014418accac562deb948ebb31798a8',
+        indexName: 'Dorios Studios Documentation',
 
         contextualSearch: true,
         searchParameters: {},
@@ -90,7 +120,7 @@ const config = {
           src: 'img/dorios_logo.png',
         },
         items: [
-          { type: 'search', position: 'right' }, 
+          { type: 'search', position: 'right' },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -98,7 +128,7 @@ const config = {
             label: 'Pages',
           },
           { to: '/about', label: 'About Us', position: 'left' },
-          { to: '/blog', label: 'Blog', position: 'left' }
+          { to: '/blog', label: 'News', position: 'left' },
         ],
       },
 
@@ -108,7 +138,7 @@ const config = {
           {
             title: 'Community',
             items: [
-               {
+              {
                 html: `
                   <a href="https://discord.gg/x36H3ZtmK5" target="_blank" rel="noopener">
                     <img src="https://cdn.simpleicons.org/discord/ffffff" alt="Discord" width="24" height="24" style="margin: 0 8px; opacity:0.8; transition:0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'" />

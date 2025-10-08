@@ -239,3 +239,30 @@ details.ds-clean > summary {
 details[open] .ds-arrow {
   transform: rotate(90deg);
 }
+
+.download-button {
+  background-color: #ff7f27;
+  color: black;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 1rem 2.5rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  min-width: 200px;
+  height: 64px;
+  line-height: 1;
+}
+
+.download-button span {
+  transform: translateY(-3px); /* baja el texto */
+}
+
+.download-button:hover {
+  transform: scale(1.025);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+}
