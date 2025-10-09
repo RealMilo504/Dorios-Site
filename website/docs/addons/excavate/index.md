@@ -96,26 +96,10 @@ The configuration menu allows you to:
 
 Everything is designed for simplicity — quick setup, no command knowledge required.
 
----
-
-## Example Showcase
-
-<p align="center">
-  <img 
-    src="https://media.forgecdn.net/attachments/description/1316262/description_ed11fcf9-1ae4-416e-ba9b-fe951e29887f.png" 
-    alt="Excavate Example Showcase" 
-    width="70%" 
-    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
-  />
-</p>
-
----
-
 ## Notes
 
 - Works seamlessly with **achievements enabled** worlds.  
 - Optimized to minimize lag on large operations.  
-- Compatible with most resource packs and automation systems.  
 
 ---
 
