@@ -1,0 +1,99 @@
+---
+title: UtilityCraft 3.2 — The Automation Update
+date: 2025-10-07
+authors: [milo504]
+tags: [utilitycraft, update, automation, energy, minecraft-bedrock, dorios-studios]
+description: UtilityCraft 3.2 introduces advanced automation, refined energy systems, and expanded compatibility with a complete overhaul to machines, generators, and transfer mechanics.
+---
+
+# UtilityCraft 3.2 — The Automation Update
+
+<p align="center">
+  <img 
+    src="https://media.forgecdn.net/attachments/1378/192/image_2025-11-01_122442622-png.png" 
+    alt="UtilityCraft 3.2.0" 
+    width="70%" 
+    style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.25)" }}
+  />
+</p>
+
+**Release Date:** October 7, 2025  
+**Developed by:** Dorios Studios  
+**Download:** [UtilityCraft v3.2.0 on GitHub](https://github.com/RealMilo504/UtilityCraft/releases/tag/v3.2.0)
+
+---
+
+## Overview
+
+UtilityCraft 3.2 delivers one of the most extensive updates to date, focusing on deeper automation, improved stability, and technical reworks for long-term addon compatibility.  
+This release rebuilds core systems for machines, energy transfer, and fluid management, while introducing a new generator, refined UIs, and developer integration through ScriptEvents.  
+Players can now enjoy more control, faster performance, and flexible automation that scales with their world.
+
+---
+
+## Major Additions & Changes
+
+### Machines
+- Reworked sieving system with tiered meshes and balanced drop progression.
+- Added Copper Cobblestone Generator as the first tier in a six-level structure.
+- Rebalanced energy and speed across multiple machines including Crusher, Infuser, Digitizer, and Induction Anvil.
+- New unified machine interface with progress display, upgrade slots, and information area.
+
+### Generators
+- Added the Wind Turbine, a passive generator whose efficiency varies with height.
+- Generators now show detailed information such as time of day, remaining fuel, and efficiency.
+- Introduced transfer modes for energy, items, and fluids: Nearest, Farthest, and Round.
+
+### Tools and Items
+- Added Steel and Copper AiOTs, Hammers, and Paxels.
+- Added Copper Mesh and new compressed item families.
+- Updated textures for tools, machines, and Mob Grinder.
+
+### Mob Grinding
+- Mob Grinders are now upgradeable with Damage and Range modules.
+- Can be toggled on or off for improved control.
+- Enhanced entity detection and performance.
+
+---
+
+## Technical Overhaul
+
+- Full rewrite of machine, generator, and fluid systems for efficiency and modular design.
+- Introduced ScriptEvent integration to allow external addons to register, replace, or modify recipes dynamically:
+  - `utilitycraft:register_crusher_recipe`
+  - `utilitycraft:register_infuser_recipe`
+  - `utilitycraft:register_melter_recipe`
+  - `utilitycraft:register_crafter_recipe`
+  - `utilitycraft:register_fuel`
+  - `utilitycraft:register_sieve_drop`
+- Added `utilitycraft:mesh` component for defining custom sieve meshes.
+- Updated rate speed settings:
+  - Super Fast → 2 ticks
+  - Fast → 4 ticks
+  - Normal → 10 ticks
+  - Slow (Default) → 20 ticks
+  - Super Slow → 40 ticks
+- Reduced maximum stack size of upgrades to 8.
+
+---
+
+## Compatibility
+
+UtilityCraft 3.2 maintains full compatibility with other Dorios Studios projects and popular technical addons such as **Integrated Storage** and **Drawers**, ensuring a seamless automation network between systems.
+
+---
+
+## Full Changelog
+
+For a detailed list of every addition, fix, and rework, visit the full changelog:  
+[UtilityCraft 3.2.0 | Full Changelog on GitHub](https://github.com/RealMilo504/UtilityCraft/releases/tag/v3.2.0)
+
+---
+
+## More Information
+
+For documentation, setup guides, and detailed explanations, visit the official Dorios Studios Wiki:  
+[doriosstudios.com/docs/addons/utilitycraft](https://doriosstudios.com/docs/addons/utilitycraft)
+
+For updates, announcements, betas, and community discussions, join the Dorios Studios Discord:  
+[discord.gg/YvzPqJZTNd](https://discord.gg/YvzPqJZTNd)
